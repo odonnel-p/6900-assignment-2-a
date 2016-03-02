@@ -4,9 +4,9 @@ The purpose of this quick exercise is to get you to practice with the full range
 
 ## Parsing data
 
-Crossfilter allows you to quickly filter, group, and reduce values of individual dimensions (tabular columns) of multi-dimensional datasets. One thing to note is that you can only filter data that can be compared i.e. with `>`,`<`,`>=`,`<=` and so on. Since `undefined` and `NaN` cannot be compared, you must not have these values in the input data to crossfilter.
+✔︎	Crossfilter allows you to quickly filter, group, and reduce values of individual dimensions (tabular columns) of multi-dimensional datasets. One thing to note is that you can only filter data that can be compared i.e. with `>`,`<`,`>=`,`<=` and so on. Since `undefined` and `NaN` cannot be compared, you must not have these values in the input data to crossfilter.
 
-Parse and import the dataset so that we have "age" and "gender" as columns in our dataset, in addition to what's there already. Again, note that for trips taken by unregistered users, these fields are empty. You must make sure these empty fields are not imported as `undefined` or `NaN`. You may choose to use a placeholder value in these cases.
+✔︎	Parse and import the dataset so that we have "age" and "gender" as columns in our dataset, in addition to what's there already. Again, note that for trips taken by unregistered users, these fields are empty. You must make sure these empty fields are not imported as `undefined` or `NaN`. You may choose to use a placeholder value in these cases.
 
 ## Construct a crossfilter
 
